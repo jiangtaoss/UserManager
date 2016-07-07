@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>UserManager4</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.jiangtao.view.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginClServlet</servlet-name>
+    <servlet-class>com.jiangtao.controller.LoginClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MainFrame</servlet-name>
+    <servlet-class>com.jiangtao.view.MainFrame</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErrorFrame</servlet-name>
+    <servlet-class>com.jiangtao.view.ErrorFrame</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageServlet</servlet-name>
+    <servlet-class>com.jiangtao.view.ManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserClServlet</servlet-name>
+    <servlet-class>com.jiangtao.controller.UserClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Ok</servlet-name>
+    <servlet-class>com.jiangtao.view.Ok</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Err</servlet-name>
+    <servlet-class>com.jiangtao.view.Err</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddClServlet</servlet-name>
+    <servlet-class>com.jiangtao.controller.AddClServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Exit</servlet-name>
+    <servlet-class>com.jiangtao.view.Exit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateView</servlet-name>
+    <servlet-class>com.jiangtao.view.UpdateView</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUserView</servlet-name>
+    <servlet-class>com.jiangtao.view.AddUserView</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchUserView</servlet-name>
+    <servlet-class>com.jiangtao.view.SearchUserView</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchSuccessView</servlet-name>
+    <servlet-class>com.jiangtao.view.SearchSuccessView</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginTimeCookie</servlet-name>
+    <servlet-class>LoginTimeServlet.LoginTimeCookie</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginUserServlet</servlet-name>
+    <servlet-class>LoginTimeServlet.LoginUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginUserCookie</servlet-name>
+    <servlet-class>LoginTimeServlet.LoginUserCookie</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateCode</servlet-name>
+    <servlet-class>com.jiangtao.view.CreateCode</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InitServlet</servlet-name>
+    <servlet-class>com.jiangtao.controller.InitServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginClServlet</servlet-name>
+    <url-pattern>/LoginClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainFrame</servlet-name>
+    <url-pattern>/MainFrame</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ErrorFrame</servlet-name>
+    <url-pattern>/ErrorFrame</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+    <servlet-name>ManageServlet</servlet-name>
+    <url-pattern>/ManageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserClServlet</servlet-name>
+    <url-pattern>/UserClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Ok</servlet-name>
+    <url-pattern>/Ok</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Err</servlet-name>
+    <url-pattern>/Err</url-pattern>
+  </servlet-mapping>
+
+  
+  <servlet-mapping>
+    <servlet-name>AddClServlet</servlet-name>
+    <url-pattern>/AddClServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Exit</servlet-name>
+    <url-pattern>/Exit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateView</servlet-name>
+    <url-pattern>/UpdateView</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserView</servlet-name>
+    <url-pattern>/AddUserView</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchUserView</servlet-name>
+    <url-pattern>/SearchUserView</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchSuccessView</servlet-name>
+    <url-pattern>/SearchSuccessView</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginTimeCookie</servlet-name>
+    <url-pattern>/LoginTimeCookie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginUserServlet</servlet-name>
+    <url-pattern>/LoginUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginUserCookie</servlet-name>
+    <url-pattern>/LoginUserCookie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateCode</servlet-name>
+    <url-pattern>/CreateCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InitServlet</servlet-name>
+    <url-pattern>/InitServlet</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
